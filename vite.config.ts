@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: '/global-time-dial/',
+  base: mode === 'production' ? '/global-time-dial/' : '/',
   server: {
     host: "::",
     port: 8080,

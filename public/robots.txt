@@ -1,14 +1,16 @@
 User-agent: Googlebot
-Allow: /
+Allow: /global-time-dial/
 
 User-agent: Bingbot
-Allow: /
+Allow: /global-time-dial/
 
 User-agent: Twitterbot
-Allow: /
+Allow: /global-time-dial/
 
 User-agent: facebookexternalhit
-Allow: /
+Allow: /global-time-dial/
 
 User-agent: *
-Allow: /
+Allow: /global-time-dial/
+
+Sitemap: https://iriyaco.github.io/global-time-dial/sitemap.xml

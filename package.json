@@ -7,8 +7,10 @@
     "dev": "vite",
     "build": "vite build",
     "build:dev": "vite build --mode development",
+    "build:gh-pages": "vite build --mode production",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "preview:gh-pages": "vite preview --base=/global-time-dial/"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
